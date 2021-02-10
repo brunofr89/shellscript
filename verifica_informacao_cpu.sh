@@ -41,3 +41,4 @@ echo Thread logical CPU : ${NRCPUTHREAD}
 echo -n MODELO :  `grep "model name" $CPUINFO | sort -u | cut -d : -f 2-` `grep "cache size" $CPUINFO | sort -u | cut -d : -f 2-` cache
 echo ''
 echo ''
+rm -rf verifica_informacao_cpu.sh verifica_informacao_cpu.sh.zip
